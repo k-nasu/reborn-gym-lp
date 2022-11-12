@@ -1,6 +1,5 @@
 import Head from "next/head";
 import Footer from "./Footer";
-import KeyVisual from "./KeyVisual";
 import styles from "./layout.module.css";
 
 function Layout({ children }) {
