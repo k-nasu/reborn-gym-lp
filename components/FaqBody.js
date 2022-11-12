@@ -1,3 +1,4 @@
+import styles from "./layout.module.css"
 import { withStyles } from '@material-ui/core/styles';
 import Accordion from '@material-ui/core/Accordion';
 import AccordionSummary from '@material-ui/core/AccordionSummary';
@@ -27,7 +28,7 @@ const StyledSummaryTypography = withStyles({
 const StyledAccordionDetails = withStyles({
   root: {
     margin: 0,
-    padding: '39px 10px 80px 35px',
+    padding: '39px 10px 100px 35px',
   }
 })(AccordionDetails);
 
@@ -41,7 +42,7 @@ const StyledDetailTypography = withStyles({
 
 const FaqBody = () => {
   return(
-    <ul>
+    <ul className={styles.faq}>
       <Accordion>
         <StyledAccordionSummary
           expandIcon={<ExpandMoreIcon style={{transform: 'scale(2)'}} />}
@@ -124,7 +125,7 @@ const FaqBody = () => {
           id="panel4a-header"
         >
           <StyledSummaryTypography>
-            身体に怪我や痛み、持病（生活習慣病など）があるけど大丈夫ですか？
+            身体に怪我や痛み、持病(生活習慣病など)があるけど大丈夫ですか？
           </StyledSummaryTypography>
         </StyledAccordionSummary>
         <StyledAccordionDetails>
