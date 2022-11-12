@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import Layout from "../components/Layout";
 import KeyVisual from "../components/KeyVisual";
 import Campaign from "../components/Campaign";
@@ -13,6 +14,10 @@ import Review from "../components/Review";
 import Faq from "../components/Faq";
 
 export default function Home() {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+}, []);
+
   return <Layout>
     <KeyVisual />
     <Campaign />
