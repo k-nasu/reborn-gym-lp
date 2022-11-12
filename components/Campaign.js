@@ -34,9 +34,8 @@ const Campaign = () => {
       />
       <StyledButton
         href="https://page.line.me/rqn6160u"
-        endIcon={<ArrowRightIcon style={{transform: 'scale(4, 2.5)'}} />}
       >
-        今すぐ!! 体験を申し込む
+        今すぐ!! 体験を申し込む ▶︎
       </StyledButton>
     </div>
   );
