@@ -7,13 +7,41 @@
   position: relative;
 }
 
+.flow {
+  position: absolute;
+  z-index: -1;
+  background-color: #999999;
+  opacity: .6;
+  left: 10%;
+  top: 25px;
+  width: 622px;
+  height: 3986px;
+}
+
+.flow_content_first {
+  display: block;
+  padding-bottom: 150px;
+}
+
+.flow_content_second {
+  display: block;
+  padding-left: 6px;
+  padding-bottom: 150px;
+}
+
+.flow_content_third {
+  display: block;
+  padding-left: 20px;
+  padding-bottom: 100px;
+}
+
 .faq {
-  width: 85%;
+  width: 91%;
   margin: 0 auto;
 }
 
 .footer {
-  padding: 2rem 0;
+  padding: 2rem 0 4rem 0;
   text-align: center;
 }
 

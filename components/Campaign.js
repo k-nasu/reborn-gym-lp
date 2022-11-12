@@ -7,16 +7,16 @@ import ArrowRightIcon from '@material-ui/icons/ArrowRight';
 const StyledButton = withStyles({
   root: {
     fontFamily: 'inherit',
-    fontSize: 25,
+    fontSize: 30,
     filter: 'drop-shadow(10px 10px 10px rgba(0,0,0,0.2))',
     color: '#FFFFFF',
     backgroundColor: '#EC6B5F',
-    padding: '15px 70px',
-    borderRadius: '35px',
+    padding: '25px 90px',
+    borderRadius: '50px',
     letterSpacing: '0.08rem',
     position: 'absolute',
-    bottom: '46%',
-    left: '21%',
+    bottom: '43%',
+    left: '14.4%',
     '&:hover': {
       backgroundColor: '#EC6B5F',
     },
