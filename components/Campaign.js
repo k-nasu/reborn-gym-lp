@@ -2,7 +2,6 @@ import Image from 'next/image';
 import styles from "./layout.module.css"
 import Button from "@material-ui/core/Button"
 import { withStyles } from '@material-ui/core/styles';
-import ArrowRightIcon from '@material-ui/icons/ArrowRight';
 
 const StyledButton = withStyles({
   root: {
