@@ -1,6 +1,6 @@
 import Layout from "../components/Layout";
 import KeyVisual from "../components/KeyVisual";
-import Campaign from "../components/Campaign";
+// import Campaign from "../components/Campaign";
 import ConceptTop from "../components/ConceptTop"
 import ConceptContent from "../components/ConceptContent"
 import FlowTop from "../components/FlowTop"
@@ -15,7 +15,7 @@ import Faq from "../components/Faq";
 export default function Home() {
   return <Layout>
     <KeyVisual />
-    <Campaign />
+    {/* <Campaign /> */}
     <ConceptTop />
     <ConceptContent />
     <FlowTop />
@@ -23,7 +23,7 @@ export default function Home() {
     <Trainer />
     <MenuForReborn />
     <MenuForStartup />
-    <Campaign />
+    {/* <Campaign /> */}
     <Competitor />
     <Review />
     <Faq />
