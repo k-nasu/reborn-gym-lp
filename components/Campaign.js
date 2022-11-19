@@ -33,7 +33,7 @@ const Campaign = () => {
         height={643}
       />
       <StyledButton
-        href="https://page.line.me/rqn6160u"
+        href="https://line.me/R/ti/p/@878hldgv"
       >
         今すぐ!! 体験を申し込む ▶︎
       </StyledButton>
