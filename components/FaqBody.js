@@ -42,7 +42,7 @@ const StyledDetailTypography = withStyles({
 
 const FaqBody = () => {
   return(
-    <ul className={styles.faq}>
+    <ul className={styles.faq_body}>
       <Accordion>
         <StyledAccordionSummary
           expandIcon={<ExpandMoreIcon style={{transform: 'scale(2)'}} />}
