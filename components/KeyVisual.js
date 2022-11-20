@@ -8,6 +8,7 @@ const KeyVisual = () => {
         alt="キービジュアル画像"
         width={768}
         height={783}
+        priority
       />
     </header>
   );
