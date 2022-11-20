@@ -32,8 +32,13 @@
   padding-bottom: 100px;
 }
 
-.faq {
+.faq_top {
   width: 91%;
+  margin: 0 auto;
+}
+
+.faq_body {
+  width: 85%;
   margin: 0 auto;
 }
 
@@ -58,7 +63,6 @@
   position: absolute;
   bottom: 43%;
   left: 14.4%;
-  /* border: white 1px solid; */
   box-shadow: 5px 5px 10px rgba(0,0,0,0.3);  
 }
 
