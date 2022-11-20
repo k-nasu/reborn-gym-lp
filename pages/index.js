@@ -1,3 +1,4 @@
+import { useEffect } from "react"
 import styles from "../components/layout.module.css"
 import Head from "next/head";
 import Footer from "../components/Footer";
@@ -15,6 +16,10 @@ import Review from "../components/Review";
 import Faq from "../components/Faq";
 
 export default function Home() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+  
   return <>
     <Head>
       <title>re.bornGYM</title>
