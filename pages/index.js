@@ -1,5 +1,5 @@
 import Layout from "../components/Layout";
-// import KeyVisual from "../components/KeyVisual";
+import KeyVisual from "../components/KeyVisual";
 import Campaign from "../components/Campaign";
 import ConceptTop from "../components/ConceptTop"
 import ConceptContent from "../components/ConceptContent"
@@ -14,7 +14,7 @@ import Faq from "../components/Faq";
 
 export default function Home() {
   return <Layout>
-    {/* <KeyVisual /> */}
+    <KeyVisual />
     <Campaign />
     <ConceptTop />
     <ConceptContent />
