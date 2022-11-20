@@ -45,3 +45,21 @@
 .footer_img {
   padding-bottom: 0.5rem;
 }
+
+.cta_button {
+  font-family: inherit;
+  font-size: 30px;
+  color: #FFFFFF;
+  background-color: #EC6B5F;
+  padding: 25px 90px;
+  border-radius: 50px;
+  letter-spacing: 0.08rem;
+  position: absolute;
+  bottom: 43%;
+  left: 14.4%;
+  border: white 1px solid;
+}
+
+.cta_button:hover {
+  background-color: #EC6B5F;
+}
