@@ -1,4 +1,6 @@
-import Layout from "../components/Layout";
+import styles from "../components/layout.module.css"
+import Head from "next/head";
+import Footer from "../components/Footer";
 import KeyVisual from "../components/KeyVisual";
 import Campaign from "../components/Campaign";
 import ConceptTop from "../components/ConceptTop"
@@ -13,19 +15,27 @@ import Review from "../components/Review";
 import Faq from "../components/Faq";
 
 export default function Home() {
-  return <Layout>
-    <KeyVisual />
-    <Campaign />
-    <ConceptTop />
-    <ConceptContent />
-    <FlowTop />
-    <FlowContent />
-    <Trainer />
-    <MenuForReborn />
-    <MenuForStartup />
-    <Campaign />
-    <Competitor />
-    <Review />
-    <Faq />
-  </Layout>
+  return <>
+    <Head>
+      <title>re.bornGYM</title>
+      <meta name="description" content="美容整体サロンと併設している業界唯一のパーソナルトレーニングジム" />
+      <link rel="icon" href="/favicon.ico" />
+    </Head>
+    <div className={styles.container}>
+      <KeyVisual />
+      <Campaign />
+      <ConceptTop />
+      <ConceptContent />
+      <FlowTop />
+      <FlowContent />
+      <Trainer />
+      <MenuForReborn />
+      <MenuForStartup />
+      <Campaign />
+      <Competitor />
+      <Review />
+      <Faq />
+      <Footer />
+    </div>
+  </>
 }

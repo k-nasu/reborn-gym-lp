@@ -19,18 +19,15 @@
 }
 
 .flow_content_first {
-  display: block;
   padding-bottom: 150px;
 }
 
 .flow_content_second {
-  display: block;
   padding-left: 6px;
   padding-bottom: 150px;
 }
 
 .flow_content_third {
-  display: block;
   padding-left: 20px;
   padding-bottom: 100px;
 }
@@ -46,6 +43,5 @@
 }
 
 .footer_img {
-  display: block;
   padding-bottom: 0.5rem;
 }
