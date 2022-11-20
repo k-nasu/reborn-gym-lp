@@ -10,11 +10,10 @@ const Campaign = () => {
         width={768}
         height={643}
       />
-      <button
-        className={styles.cta_button}
-      >
-        <a href="https://line.me/R/ti/p/@878hldgv">今すぐ!! 体験を申し込む ▶︎</a>
-      </button>
+        <a
+          className={styles.cta_button}
+          href="https://line.me/R/ti/p/@878hldgv">今すぐ!! 体験を申し込む ▶︎
+        </a>
     </div>
   );
 }
