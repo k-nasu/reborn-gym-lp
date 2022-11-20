@@ -13,7 +13,7 @@ import MenuForReborn from "../components/MenuForReborn";
 import MenuForStartup from "../components/MenuForStartup";
 import Competitor from "../components/Competitor";
 import Review from "../components/Review";
-import Faq from "../components/Faq";
+// import Faq from "../components/Faq";
 
 export default function Home() {
   useEffect(() => {
@@ -39,7 +39,7 @@ export default function Home() {
       <Campaign />
       <Competitor />
       <Review />
-      <Faq />
+      {/* <Faq /> */}
       <Footer />
     </div>
   </>
