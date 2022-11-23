@@ -42,6 +42,54 @@
   margin: 0 auto;
 }
 
+.faq_content {
+  border-bottom: .9px gray solid;
+}
+
+.faq_summary {
+  font-size: 1.7rem;
+  background-color: #E6E6E6;
+  margin: 0;
+  padding: 25px 75px 25px 39px;
+  position: relative;
+}
+
+.faq_summary_icon_open {
+  position: absolute;
+  top: 0;
+  right: 2.5rem;
+  bottom: 0;
+  width: 15px;
+  height: 15px;
+  margin: auto;
+  border: solid rgba(0, 0, 0, 0.54);
+  border-width: 2px 2px 0 0;
+  transform: rotate(135deg);
+  transition: transform 0.2s ease;
+}
+
+.faq_summary_icon_close {
+  position: absolute;
+  top: 0;
+  right: 2.5rem;
+  bottom: 0;
+  width: 15px;
+  height: 15px;
+  margin: auto;
+  border: solid rgba(0, 0, 0, 0.54);
+  border-width: 2px 2px 0 0;
+  transform: rotate(-45deg);
+  transition: transform 0.2s ease;
+}
+
+.faq_detail {
+  font-family: inherit;
+  font-size: 1.55rem;
+  line-height: 2.7rem;
+  letter-spacing: 0;
+  margin: 0;
+}
+
 .footer {
   padding: 2rem 0 4rem 0;
   text-align: center;
@@ -63,7 +111,7 @@
   position: absolute;
   bottom: 43%;
   left: 14.4%;
-  box-shadow: 5px 5px 10px rgba(0,0,0,0.3);  
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
 }
 
 .cta_button:hover {
