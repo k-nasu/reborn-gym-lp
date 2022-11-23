@@ -54,7 +54,7 @@ function FaqBody() {
             onClick={() => handleClick(index)}
             className={styles.faq_summary}
           >
-            {menu.title}
+            {menu.title.split('<br />').map((text, index) => (<span key={index}>{text}<br /></span>))}
             <span className={clicked === index ? styles.faq_summary_icon_close : styles.faq_summary_icon_open }></span>
           </h4>
           <p
@@ -72,10 +72,6 @@ function FaqBody() {
             ref={contentEl}
             className={styles.faq_detail}
           >
-            {/* {
-              menu.content
-                .split('<br />').map((text, index) => (<span key={index}>{text}<br /></span>))
-            } */}
             <span dangerouslySetInnerHTML={{ __html: menu.content }} />
           </p>
         </li>
