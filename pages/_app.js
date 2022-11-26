@@ -25,13 +25,13 @@ function MyApp({ Component, pageProps }) {
     </Script>
     {/* End Google Tag Manager */}
     <DefaultSeo
-      defaultTitle="恵比寿【美容整体×パーソナルトレーニング】|re.born GYM"
+      defaultTitle="恵比寿【美容整体×パーソナルトレーニング】| re.born GYM"
       description="初心者・女性の方の満足度No.1 美容整体サロンと併設している業界唯一のパーソナルトレーニングジム。恵比寿駅から徒歩8分、代官山駅から徒歩5分のロケーション。re.born GYMでは、痛みの軽減、美しい体づくりをサポートしていきます。"
       openGraph={{
         type: "website",
-        title: "恵比寿【美容整体×パーソナルトレーニング】|re.born GYM",
+        title: "恵比寿【美容整体×パーソナルトレーニング】| re.born GYM",
         description: "初心者・女性の方の満足度No.1 美容整体サロンと併設している業界唯一のパーソナルトレーニングジム。恵比寿駅から徒歩8分、代官山駅から徒歩5分のロケーション。re.born GYMでは、痛みの軽減、美しい体づくりをサポートしていきます。",
-        site_name: "恵比寿【美容整体×パーソナルトレーニング】|re.born GYM",
+        site_name: "恵比寿【美容整体×パーソナルトレーニング】| re.born GYM",
         url: "https://reborn-gym.com",
         images: [
           {
