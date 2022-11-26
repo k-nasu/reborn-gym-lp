@@ -23,10 +23,9 @@ export default function Home() {
   return <>
     {/* <!-- Google Tag Manager (noscript) --> */}
     <noscript>
-      <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MLHX4NP"
-        height="0"
-        width="0"
-        style="display:none;visibility:hidden"
+      <iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-MLHX4NP"
+        style={{ width: 0, height: 0, display: 'none', visibility: 'hidden'}}
       />
     </noscript>
     {/* <!-- End Google Tag Manager (noscript) --> */}
