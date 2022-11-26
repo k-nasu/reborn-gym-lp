@@ -1,6 +1,5 @@
 import { useEffect } from "react"
 import styles from "../components/layout.module.css"
-import Head from "next/head";
 import Footer from "../components/Footer";
 import KeyVisual from "../components/KeyVisual";
 import Campaign from "../components/Campaign";
@@ -22,11 +21,14 @@ export default function Home() {
   }, []);
   
   return <>
-    <Head>
-      <title>re.bornGYM</title>
-      <meta name="description" content="美容整体サロンと併設している業界唯一のパーソナルトレーニングジム" />
-      <link rel="icon" href="/favicon.ico" />
-    </Head>
+    {/* <!-- Google Tag Manager (noscript) --> */}
+    <noscript>
+      <iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-MLHX4NP"
+        style={{ width: 0, height: 0, display: 'none', visibility: 'hidden'}}
+      />
+    </noscript>
+    {/* <!-- End Google Tag Manager (noscript) --> */}
     <div className={styles.container}>
       <KeyVisual />
       <Campaign />
