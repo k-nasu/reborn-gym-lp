@@ -1,4 +1,3 @@
-import { useEffect } from "react"
 import styles from "../components/layout.module.css"
 import Footer from "../components/Footer";
 import KeyVisual from "../components/KeyVisual";
@@ -16,10 +15,6 @@ import FaqTop from "../components/FaqTop";
 import FaqBody from "../components/FaqBody";
 
 export default function Home() {
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
-  
   return <>
     {/* <!-- Google Tag Manager (noscript) --> */}
     <noscript>
