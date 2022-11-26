@@ -72,7 +72,11 @@ function FaqBody() {
             ref={contentEl}
             className={styles.faq_detail}
           >
-            <span dangerouslySetInnerHTML={{ __html: menu.content }} />
+            <span
+              dangerouslySetInnerHTML={{
+                __html: sanitizing(menu.content)
+              }}
+            />
           </p>
         </li>
       ))}
