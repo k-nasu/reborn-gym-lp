@@ -3,7 +3,7 @@ import styles from "./layout.module.css"
 
 const FlowContent = () => {
   return (
-    <div style={{ position: 'relative'}}>
+    <div className={styles.flow_wrapper}>
       <div className={styles.flow} />
       <ul>
         <li className={styles.flow_content_first}>

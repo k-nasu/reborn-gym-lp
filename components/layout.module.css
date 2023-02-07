@@ -7,6 +7,11 @@
   position: relative;
 }
 
+.flow_wrapper {
+  position: relative;
+  padding-bottom: 150px;
+}
+
 .flow {
   position: absolute;
   z-index: -1;
@@ -40,6 +45,7 @@
 .faq_body {
   width: 85%;
   margin: 0 auto;
+  padding-bottom: 100px;
 }
 
 .faq_content {
@@ -91,7 +97,7 @@
 }
 
 .footer {
-  padding: 2rem 0 4rem 0;
+  padding-bottom: 4rem;
   text-align: center;
 }
 
