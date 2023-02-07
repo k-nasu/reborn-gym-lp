@@ -31,6 +31,7 @@ export default function Home() {
       <ConceptContent />
       <FlowTop />
       <FlowContent />
+      <Campaign />
       <Trainer />
       <MenuForReborn />
       <MenuForStartup />
@@ -39,6 +40,7 @@ export default function Home() {
       <Review />
       <FaqTop />
       <FaqBody />
+      <Campaign />
       <Footer />
     </div>
   </>

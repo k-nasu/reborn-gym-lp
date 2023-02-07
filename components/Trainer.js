@@ -6,7 +6,7 @@ const Trainer = () => {
       src="/images/trainer.jpg"
       alt="トレーナーの画像"
       width={768}
-      height={943}
+      height={745}
     />
   );
 }
