@@ -8,7 +8,7 @@ const Campaign = () => {
         src="/images/campaign.jpg"
         alt="キャンペーン画像"
         width={768}
-        height={643}
+        height={860}
       />
         <a
           className={styles.cta_button}
