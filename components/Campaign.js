@@ -9,6 +9,7 @@ const Campaign = () => {
         alt="キャンペーン画像"
         width={768}
         height={860}
+        priority
       />
         <a
           className={styles.cta_button}
