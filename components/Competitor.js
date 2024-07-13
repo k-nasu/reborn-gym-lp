@@ -7,6 +7,7 @@ const Competitor = () => {
       alt="他社比較の画像"
       width={768}
       height={1728}
+      priority
     />
   );
 }

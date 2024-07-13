@@ -7,6 +7,7 @@ const Review = () => {
       alt="お客様の声の画像"
       width={768}
       height={1345}
+      priority
     />
   );
 }

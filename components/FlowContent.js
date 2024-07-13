@@ -12,6 +12,7 @@ const FlowContent = () => {
             alt="トレーニングの流れの画像1"
             width={736}
             height={1208}
+            priority
           />
         </li>
         <li className={styles.flow_content_second}>
@@ -20,6 +21,7 @@ const FlowContent = () => {
             alt="トレーニングの流れの画像2"
             width={746}
             height={1197}
+            priority
           />
         </li>
         <li className={styles.flow_content_third}>
@@ -28,10 +30,11 @@ const FlowContent = () => {
             alt="トレーニングの流れの画像3"
             width={730}
             height={1170}
+            priority
           />
         </li>
       </ul>
-      
+
     </div>
   );
 }

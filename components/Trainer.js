@@ -7,6 +7,7 @@ const Trainer = () => {
       alt="トレーナーの画像"
       width={768}
       height={745}
+      priority
     />
   );
 }

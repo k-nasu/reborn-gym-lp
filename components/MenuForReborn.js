@@ -7,6 +7,7 @@ const MenuForReborn = () => {
       alt="rebornトーレーニングメニューの画像"
       width={768}
       height={1322}
+      priority
     />
   );
 }

@@ -9,6 +9,7 @@ const FaqTop = () => {
       width={768}
       height={250}
       className={styles.faq_top}
+      priority
     />
   );
 }

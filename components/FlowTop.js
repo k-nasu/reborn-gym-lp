@@ -7,6 +7,7 @@ const FlowTop = () => {
       alt="トレーニングの流れのトップ画像"
       width={768}
       height={670}
+      priority
     />
   );
 }

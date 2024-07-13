@@ -7,6 +7,7 @@ const ConceptTop = () => {
       alt="リボーンジムのコンセプト"
       width={768}
       height={838}
+      priority
     />
   );
 }
